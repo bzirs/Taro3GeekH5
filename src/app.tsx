@@ -1,6 +1,8 @@
 import { View } from '@tarojs/components'
 import { memo } from 'react'
-import './app.scss'
+
+import '@/styles/index.scss'
+import '@/app.scss'
 
 const App = (props) => {
   return <View className='app'>{props.children}</View>

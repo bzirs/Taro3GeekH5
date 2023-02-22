@@ -1,4 +1,11 @@
+import { resolve } from 'path'
+
 const config = {
+  alias: {
+    '@': resolve(__dirname, '..', 'src')
+    // '@/utils': resolve(__dirname, '..', 'src/utils'),
+    // '@/styles': resolve(__dirname, '..', 'src/styles')
+  },
   projectName: 'taro-geek-h5',
   date: '2023-2-22',
   designWidth: 750,
@@ -71,7 +78,7 @@ const config = {
   }
 }
 
-module.exports = function (merge) {
+export default function (merge) {
   if (process.env.NODE_ENV === 'development') {
     return merge({}, config, require('./dev'))
   }

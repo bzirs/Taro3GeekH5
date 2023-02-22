@@ -54,7 +54,8 @@
     "@tarojs/taro": "3.6.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-redux": "^8.0.5"
+    "react-redux": "^8.0.5",
+    "taro-ui": "3.1.0-beta.4"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",

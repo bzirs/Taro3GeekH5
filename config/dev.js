@@ -1,9 +1,6 @@
-// eslint-disable-next-line import/no-commonjs
-module.exports = {
-  env: {
-    NODE_ENV: '"development"'
-  },
-  defineConstants: {},
-  mini: {},
-  h5: {}
+export const env = {
+  NODE_ENV: '"development"'
 }
+export const defineConstants = {}
+export const mini = {}
+export const h5 = {}

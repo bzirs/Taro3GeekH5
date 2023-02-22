@@ -1,0 +1,16 @@
+@import '~taro-ui/dist/style/index.scss';
+
+/* 1 创建全局 CSS 变量 --geek-color-primary*/
+:root {
+  --geek-color-primary: #fc6627;
+}
+
+$font-size-base: 13px * $hd !default; // 常用字号
+$color-border-base: #eeeeee !default;
+$color-brand-light: #cccccc !default;
+
+/* Color */
+$color-success: #00b578 !default;
+$color-error: #ff3141 !default;
+$color-warning: #ff8f1f !default;
+$color-info: #78a4fa !default;
